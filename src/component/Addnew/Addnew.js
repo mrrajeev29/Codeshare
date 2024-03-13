@@ -45,7 +45,7 @@ const Addnew=()=>{
       const removeRow = (id) => {
         if(id==1)
         {
-            alert("You can not delete this answer box provide your code in this box first.");
+            alert("You can not delete this box provide your code in this box first.");
         }
         else{
         setRows(rows.filter((row) => row.id !== id));
